@@ -2,6 +2,6 @@
 
 Это стек технологий, включающий:
   - Сервер приложений [Impress](https://github.com/metarhia/Impress)
-  - Тонкий клиент [Console](https://github.com/metarhia/Console)
-  - Протокол [JSTP](https://github.com/metarhia/JSTP)
-  - СУБД [GlobalStorage](https://github.com/metarhia/GlobalStorage)
+  - Браузер приложений и баз данных [Console](https://github.com/metarhia/Console)
+  - Многоцелевой протокол [JSTP](https://github.com/metarhia/JSTP)
+  - Распределенная СУБД [GlobalStorage](https://github.com/metarhia/GlobalStorage)
