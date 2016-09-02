@@ -1,7 +1,7 @@
 # Metarhia
 
-Это стек технологий, включающий:
-  - Сервер приложений [Impress](https://github.com/metarhia/Impress)
-  - Тонкий клиент [Console](https://github.com/metarhia/Console)
-  - Протокол [JSTP](https://github.com/metarhia/JSTP)
-  - СУБД [GlobalStorage](https://github.com/metarhia/GlobalStorage)
+Experimental technological stack, including:
+  - Application Server [Impress](https://github.com/metarhia/Impress)
+  - Client Run-time [Console](https://github.com/metarhia/Console)
+  - JavaScript Transfer Protocol [JSTP](https://github.com/metarhia/JSTP)
+  - Database Management System [GlobalStorage](https://github.com/metarhia/GlobalStorage)

@@ -1,0 +1,30 @@
+{
+  "name": "metarhia",
+  "version": "0.0.1",
+  "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
+  "description": "Metarhia",
+  "license": "MIT",
+  "keywords": [
+    "metarhia",
+    "cloud",
+    "jstp",
+    "impress",
+    "console",
+    "globalstorage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metarhia/Metarhia"
+  },
+  "bugs": {
+    "url": "https://github.com/metarhia/Metarhia/issues",
+    "email": "timur.shemsedinov@gmail.com"
+  },
+  "main": "./metarhia.js",
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "readmeFilename": "README.md"
+}
