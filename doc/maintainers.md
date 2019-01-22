@@ -8,7 +8,7 @@
 | [`metarhia/do`][]                          | [`do`][]                          | [tshemsedinov][] |
 | [`metarhia/eslint-config-metarhia`][]      | [`eslint-config-metarhia`][]      | [belochub][]     |
 | [`metarhia/eslint-plugin-impress`][]       | [`eslint-plugin-impress`][]       | [belochub][]     |
-| [`metarhia/filestorage`][]                 | TBD                               | [lundibundi][]   |
+| [`metarhia/filestorage`][]                 | [`@metarhia/filestorage`][]       | [lundibundi][]   |
 | [`metarhia/globalstorage`][]               | [`globalstorage`][]               | [belochub][]     |
 | [`metarhia/impress`][]                     | [`impress`][]                     | [tshemsedinov][] |
 | [`metarhia/impress-cli`][]                 | [`impress-cli`][]                 | [belochub][]     |
@@ -25,6 +25,7 @@
 | [`metarhia/remark-preset-lint-metarhia`][] | [`remark-preset-lint-metarhia`][] | [belochub][]     |
 | [`metarhia/sandboxed-fs`][]                | [`sandboxed-fs`][]                | [belochub][]     |
 | [`metarhia/tickplate`][]                   | [`tickplate`][]                   | [tshemsedinov][] |
+| [`metarhia/tools`][]                       | [`@metarhia/tools`][]             | [belochub][]     |
 
 [`metarhia/Metarhia`]: https://github.com/metarhia/Metarhia
 [`metarhia/common`]: https://github.com/metarhia/common
@@ -49,6 +50,7 @@
 [`metarhia/remark-preset-lint-metarhia`]: https://github.com/metarhia/remark-preset-lint-metarhia
 [`metarhia/sandboxed-fs`]: https://github.com/metarhia/sandboxed-fs
 [`metarhia/tickplate`]: https://github.com/metarhia/tickplate
+[`metarhia/tools`]: https://github.com/metarhia/tools
 
 [`metarhia`]: https://npmjs.com/metarhia
 [`@metarhia/common`]: https://npmjs.com/@metarhia/common
@@ -56,6 +58,7 @@
 [`do`]: https://npmjs.com/do
 [`eslint-config-metarhia`]: https://npmjs.com/eslint-config-metarhia
 [`eslint-plugin-impress`]: https://npmjs.com/eslint-plugin-impress
+[`@metarhia/filestorage`]: https://npmjs.com/@metarhia/filestorage
 [`globalstorage`]: https://npmjs.com/globalstorage
 [`impress`]: https://npmjs.com/impress
 [`impress-cli`]: https://npmjs.com/impress-cli
@@ -72,6 +75,7 @@
 [`remark-preset-lint-metarhia`]: https://npmjs.com/remark-preset-lint-metarhia
 [`sandboxed-fs`]: https://npmjs.com/sandboxed-fs
 [`tickplate`]: https://npmjs.com/tickplate
+[`@metarhia/tools`]: https://www.npmjs.com/@metarhia/tools
 
 [belochub]: https://github.com/belochub
 [lundibundi]: https://github.com/lundibundi
