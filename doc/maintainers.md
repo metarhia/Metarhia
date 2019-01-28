@@ -1,7 +1,7 @@
 # Metarhia packages/repositories maintainers
 
 | Repository                                 | NPM package                       | Maintainer       |
-| ----------                                 | -----------                       | ----------       |
+| ------------------------------------------ | --------------------------------- | ---------------- |
 | [`metarhia/Metarhia`][]                    | [`metarhia`][]                    | [tshemsedinov][] |
 | [`metarhia/common`][]                      | [`@metarhia/common`][]            | [belochub][]     |
 | [`metarhia/concolor`][]                    | [`concolor`][]                    | [tshemsedinov][] |
@@ -27,7 +27,7 @@
 | [`metarhia/tickplate`][]                   | [`tickplate`][]                   | [tshemsedinov][] |
 | [`metarhia/tools`][]                       | [`@metarhia/tools`][]             | [belochub][]     |
 
-[`metarhia/Metarhia`]: https://github.com/metarhia/Metarhia
+[`metarhia/metarhia`]: https://github.com/metarhia/Metarhia
 [`metarhia/common`]: https://github.com/metarhia/common
 [`metarhia/concolor`]: https://github.com/metarhia/concolor
 [`metarhia/do`]: https://github.com/metarhia/do
@@ -51,7 +51,7 @@
 [`metarhia/sandboxed-fs`]: https://github.com/metarhia/sandboxed-fs
 [`metarhia/tickplate`]: https://github.com/metarhia/tickplate
 [`metarhia/tools`]: https://github.com/metarhia/tools
-
+[//]: # 'links to npm packages:'
 [`metarhia`]: https://npmjs.com/metarhia
 [`@metarhia/common`]: https://npmjs.com/@metarhia/common
 [`concolor`]: https://npmjs.com/concolor
@@ -76,7 +76,7 @@
 [`sandboxed-fs`]: https://npmjs.com/sandboxed-fs
 [`tickplate`]: https://npmjs.com/tickplate
 [`@metarhia/tools`]: https://www.npmjs.com/@metarhia/tools
-
+[//]: # "links to maintainers' GitHub profiles:"
 [belochub]: https://github.com/belochub
 [lundibundi]: https://github.com/lundibundi
 [nechaido]: https://github.com/nechaido
