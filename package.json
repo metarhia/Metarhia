@@ -21,10 +21,15 @@
     "email": "timur.shemsedinov@gmail.com"
   },
   "main": "./metarhia.js",
-  "dependencies": {
+  "scripts": {
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\""
   },
+  "dependencies": {},
   "engines": {
     "node": ">=0.4.0"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "prettier": "1.16.x"
+  }
 }
