@@ -6,3 +6,5 @@ Experimental technological stack, including:
 - Client Run-time [Console](https://github.com/metarhia/Console)
 - JavaScript Transfer Protocol [JSTP](https://github.com/metarhia/JSTP)
 - Database Management System [GlobalStorage](https://github.com/metarhia/GlobalStorage)
+
+See [Metarhia packages/repositories maintainers](https://github.com/metarhia/Metarhia/blob/master/doc/maintainers.md)
