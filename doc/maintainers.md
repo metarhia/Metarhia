@@ -24,6 +24,7 @@
 | [`metarhia/protocol`][]                    | [`mhp`][]                         | [nechaido][]     |
 | [`metarhia/remark-preset-lint-metarhia`][] | [`remark-preset-lint-metarhia`][] | [belochub][]     |
 | [`metarhia/sandboxed-fs`][]                | [`sandboxed-fs`][]                | [belochub][]     |
+| [`metarhia/sql`][]                         | [`@metarhia/sql`][]               | [lundibundi][]   |
 | [`metarhia/tickplate`][]                   | [`tickplate`][]                   | [tshemsedinov][] |
 | [`metarhia/tools`][]                       | [`@metarhia/tools`][]             | [belochub][]     |
 
@@ -49,6 +50,7 @@
 [`metarhia/protocol`]: https://github.com/metarhia/protocol
 [`metarhia/remark-preset-lint-metarhia`]: https://github.com/metarhia/remark-preset-lint-metarhia
 [`metarhia/sandboxed-fs`]: https://github.com/metarhia/sandboxed-fs
+[`metarhia/sql`]: https://github.com/metarhia/sql
 [`metarhia/tickplate`]: https://github.com/metarhia/tickplate
 [`metarhia/tools`]: https://github.com/metarhia/tools
 [//]: # 'links to npm packages:'
@@ -74,6 +76,7 @@
 [`mhp`]: https://npmjs.com/mhp
 [`remark-preset-lint-metarhia`]: https://npmjs.com/remark-preset-lint-metarhia
 [`sandboxed-fs`]: https://npmjs.com/sandboxed-fs
+[`@metarhia/sql`]: https://npmjs.com/@metarhia/sql
 [`tickplate`]: https://npmjs.com/tickplate
 [`@metarhia/tools`]: https://www.npmjs.com/@metarhia/tools
 [//]: # "links to maintainers' GitHub profiles:"
