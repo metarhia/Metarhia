@@ -1,0 +1,307 @@
+[
+  {
+    "name": "abandoned",
+    "color": "000000",
+    "description": "when there is no eventual need"
+  },
+  {
+    "name": "backport",
+    "color": "4213c4",
+    "description": "Issues and PRs related to backporting features and bug fixes to previous versions."
+  },
+  {
+    "name": "benchmark",
+    "color": "009800",
+    "description": "PRs and issues related to the benchmark subsystem."
+  },
+  {
+    "name": "blocked",
+    "color": "b60205",
+    "description": "PRs that are blocked by other issues/PRs."
+  },
+  {
+    "name": "browser",
+    "color": "f9d0c4",
+    "description": "PRs and issues related to browser"
+  },
+  {
+    "name": "bug",
+    "color": "fc2929",
+    "description": "PRs and issues related to incorrect behaviour"
+  },
+  {
+    "name": "build",
+    "color": "eb6420",
+    "description": "PRs and issues related to build files or the CI."
+  },
+  {
+    "name": "ci",
+    "color": "ffff00",
+    "description": "PRs and issues related to the tests with unstable failures on the CI."
+  },
+  {
+    "name": "cli",
+    "color": "bfd4f2",
+    "description": "PRs and issues related to the Node.js command line interface."
+  },
+  {
+    "name": "coverage",
+    "color": "76e85a",
+    "description": "Issues and PRs related to native coverage support."
+  },
+  {
+    "name": "deprecations",
+    "color": "ea8a8d",
+    "description": "Issues and PRs related to deprecations."
+  },
+  {
+    "name": "deps",
+    "color": "1da6db",
+    "description": "Issues and PRs related to dependencies."
+  },
+  {
+    "name": "discussion",
+    "color": "9fefc7",
+    "description": "Issues that are meant for discussion."
+  },
+  {
+    "name": "dist",
+    "color": "d4c5f9",
+    "description": "Issues and PRs related to dist folder."
+  },
+  {
+    "name": "doc",
+    "color": "006b75",
+    "description": "Issues and PRs related to the documentations."
+  },
+  {
+    "name": "duplicate",
+    "color": "ededed",
+    "description": "Issues or PRs that are duplicates of other issues or PRs."
+  },
+  {
+    "name": "experimental",
+    "color": "c5def5",
+    "description": "Issues or PRs related to experimental features."
+  },
+  {
+    "name": "fast-track",
+    "color": "a989e5",
+    "description": "PRs that do not need to wait for 48 hours to land."
+  },
+  {
+    "name": "feature-request",
+    "color": "0d7bde",
+    "description": "Issues that request new features to be added to the Node.js core."
+  },
+  {
+    "name": "good first issue",
+    "color": "7057ff",
+    "description": "Issues that are suitable for first-time contributors."
+  },
+  {
+    "name": "help wanted",
+    "color": "159818",
+    "description": "Issues that need assistance from volunteers or PRs that need help to proceed."
+  },
+  {
+    "name": "in progress",
+    "color": "d93f0b",
+    "description": "Issues and PRs that are still in progress."
+  },
+  {
+    "name": "install",
+    "color": "eb6420",
+    "description": "Issues and PRs related to the installers."
+  },
+  {
+    "name": "invalid",
+    "color": "ededed",
+    "description": "PRs and issues that are invalid."
+  },
+  {
+    "name": "investigating",
+    "color": "e407f4",
+    "description": "Issues and PRs that are not confirmed."
+  },
+  {
+    "name": "known limitation",
+    "color": "ff8080",
+    "description": "Issues that are identified as known limitations."
+  },
+  {
+    "name": "landed",
+    "color": "6f42c1",
+    "description": "PRs that were landed."
+  },
+  {
+    "name": "lib",
+    "color": "fad8c7",
+    "description": "Issues and PRs related to general changes in the lib directory."
+  },
+  {
+    "name": "lint",
+    "color": "0e8a16",
+    "description": "Issues and PRs related to linter."
+  },
+  {
+    "name": "lts",
+    "color": "c7def8",
+    "description": "Issues and PRs related to Long Term Support."
+  },
+  {
+    "name": "macos",
+    "color": "9944dd",
+    "description": "Issues and PRs related to the macOS platform."
+  },
+  {
+    "name": "meta",
+    "color": "b60205",
+    "description": ""
+  },
+  {
+    "name": "misspell",
+    "color": "fbca04",
+    "description": ""
+  },
+  {
+    "name": "npm",
+    "color": "fad8c7",
+    "description": "Issues and PRs related to the npm client dependency or the npm registry."
+  },
+  {
+    "name": "optimization",
+    "color": "008800",
+    "description": "Issues and PRs related to performance optimization."
+  },
+  {
+    "name": "performance",
+    "color": "5319e7",
+    "description": "Issues and PRs related to the performance of Node.js."
+  },
+  {
+    "name": "question",
+    "color": "cc317c",
+    "description": "Issues that look for answers."
+  },
+  {
+    "name": "refactor to ES6+",
+    "color": "0e8a16",
+    "description": "Issues and PRs related to refactoring existing JavaScript code to ECMAScript 6 or later."
+  },
+  {
+    "name": "regression",
+    "color": "b60205",
+    "description": "Issues related to regressions."
+  },
+  {
+    "name": "release",
+    "color": "006b75",
+    "description": "Issues and PRs related to releases of new versions."
+  },
+  {
+    "name": "repro-exists",
+    "color": "e11d21",
+    "description": "Issues with reproductions."
+  },
+  {
+    "name": "research",
+    "color": "0052cc",
+    "description": "Issues and PRs related to research."
+  },
+  {
+    "name": "review wanted",
+    "color": "10efeb",
+    "description": "PRs that need reviews"
+  },
+  {
+    "name": "revisit later",
+    "color": "ff89ed",
+    "description": "Inactionable items that could be revisited later"
+  },
+  {
+    "name": "security",
+    "color": "bb3344",
+    "description": "Issues and PRs related to security."
+  },
+  {
+    "name": "semver-major",
+    "color": "fbca04",
+    "description": "PRs that contain breaking changes and should be released in the next major version."
+  },
+  {
+    "name": "semver-minor",
+    "color": "fef2c0",
+    "description": "PRs that contain new features and should be released in the next minor version."
+  },
+  {
+    "name": "semver-patch",
+    "color": "f4f3c0",
+    "description": "PRs that contain new features and should be released in the next minor version."
+  },
+  {
+    "name": "server",
+    "color": "e99695",
+    "description": "Issues and PRs related to server."
+  },
+  {
+    "name": "src",
+    "color": "5319e7",
+    "description": "Issues and PRs related to general changes in the src directory."
+  },
+  {
+    "name": "stalled",
+    "color": "d4c5f9",
+    "description": "Issues and PRs that are stalled."
+  },
+  {
+    "name": "test",
+    "color": "990099",
+    "description": "Issues and PRs related to the tests."
+  },
+  {
+    "name": "tools",
+    "color": "fe8a16",
+    "description": "Issues and PRs related to tools for developement."
+  },
+  {
+    "name": "triage-high",
+    "color": "000000",
+    "description": ""
+  },
+  {
+    "name": "triage-low",
+    "color": "000000",
+    "description": ""
+  },
+  {
+    "name": "triage-normal",
+    "color": "000000",
+    "description": ""
+  },
+  {
+    "name": "triage-paused",
+    "color": "000000",
+    "description": ""
+  },
+  {
+    "name": "windows",
+    "color": "9944dd",
+    "description": "Issues and PRs related to the Windows platform."
+  },
+  {
+    "name": "wontfix",
+    "color": "ededed",
+    "description": "Issues that will not be fixed, e.g. due to backwards compatibility concerns."
+  },
+  {
+    "name": "work in progress",
+    "color": "ffff00",
+    "description": "Issues and PRs that are still a work in progress."
+  },
+  {
+    "name": "wrong repo",
+    "color": "6a4636",
+    "description": "Issues that should be opened in another repository."
+  }
+]
