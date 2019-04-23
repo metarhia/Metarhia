@@ -1,0 +1,169 @@
+[
+  {
+    "name": "abandoned",
+    "color": "000000"
+  },
+  {
+    "name": "backport",
+    "color": "4213c4",
+    "description": "related to backporting features and bug fixes to previous versions"
+  },
+  {
+    "name": "blocked",
+    "color": "874f4f",
+    "description": "blocked by other issue(s)/PR(s)"
+  },
+  {
+    "name": "browser",
+    "color": "ffde3a"
+  },
+  {
+    "name": "bug",
+    "color": "ff0000"
+  },
+  {
+    "name": "build",
+    "color": "eb6420",
+    "description": "related to build configuration"
+  },
+  {
+    "name": "ci",
+    "color": "f3efae"
+  },
+  {
+    "name": "cli",
+    "color": "bfd4f2"
+  },
+  {
+    "name": "coverage",
+    "color": "009900"
+  },
+  {
+    "name": "deprecation",
+    "color": "ffae00"
+  },
+  {
+    "name": "deps",
+    "color": "1da6db"
+  },
+  {
+    "name": "discussion",
+    "color": "9fefc7"
+  },
+  {
+    "name": "doc",
+    "color": "006b75"
+  },
+  {
+    "name": "duplicate",
+    "color": "ddeede"
+  },
+  {
+    "name": "feature",
+    "color": "069b1f",
+    "description": "PRs that add new features"
+  },
+  {
+    "name": "feature request",
+    "color": "0d7bde",
+    "description": "issues that request new features"
+  },
+  {
+    "name": "good first issue",
+    "color": "7057ff",
+    "description": "issues that are suitable for first-time contributors"
+  },
+  {
+    "name": "help wanted",
+    "color": "066e70",
+    "description": "issues that need assistance from volunteers or PRs that need help to proceed"
+  },
+  {
+    "name": "investigating",
+    "color": "e407f4",
+    "description": "issues and PRs that are not confirmed"
+  },
+  {
+    "name": "known limitation",
+    "color": "9b0606",
+    "description": "issues that are identified as known limitations"
+  },
+  {
+    "name": "lint",
+    "color": "463fd4"
+  },
+  {
+    "name": "macos",
+    "color": "efefef"
+  },
+  {
+    "name": "meta",
+    "color": "ffff00",
+    "description": "issues or PRs related to the general management of the project"
+  },
+  {
+    "name": "optimization",
+    "color": "70d34c"
+  },
+  {
+    "name": "question",
+    "color": "ff8cdc"
+  },
+  {
+    "name": "refactoring",
+    "color": "5effee"
+  },
+  {
+    "name": "regression",
+    "color": "b60205"
+  },
+  {
+    "name": "release",
+    "color": "00ff00"
+  },
+  {
+    "name": "research",
+    "color": "0000ff"
+  },
+  {
+    "name": "revisit later",
+    "color": "ff89ed",
+    "description": "could be revisited later"
+  },
+  {
+    "name": "security",
+    "color": "ff0000"
+  },
+  {
+    "name": "semver-major",
+    "color": "dd1111",
+    "description": "incompatible API changes"
+  },
+  {
+    "name": "semver-minor",
+    "color": "dddd11",
+    "description": "addition of functionality in a backwards-compatible way"
+  },
+  {
+    "name": "semver-patch",
+    "color": "11dd11",
+    "description": "backwards-compatible bug fixes"
+  },
+  {
+    "name": "stale",
+    "color": "d4c5f9"
+  },
+  {
+    "name": "test",
+    "color": "00ddff"
+  },
+  {
+    "name": "windows",
+    "color": "0067b8"
+  },
+  {
+    "name": "wontfix",
+    "color": "ededed",
+    "description": "issues that will not be fixed, e.g. due to backwards compatibility concerns"
+  }
+]
