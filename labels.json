@@ -2,7 +2,7 @@
   {
     "name": "abandoned",
     "color": "000000",
-    "description": "when there is no eventual need"
+    "description": "When there is no eventual need."
   },
   {
     "name": "backport",
@@ -12,7 +12,7 @@
   {
     "name": "benchmark",
     "color": "009800",
-    "description": "PRs and issues related to the benchmark subsystem."
+    "description": "Issues and PRs related to the benchmark subsystem."
   },
   {
     "name": "blocked",
@@ -22,27 +22,27 @@
   {
     "name": "browser",
     "color": "f9d0c4",
-    "description": "PRs and issues related to browser"
+    "description": "Issues and PRs related to browser."
   },
   {
     "name": "bug",
     "color": "fc2929",
-    "description": "PRs and issues related to incorrect behaviour"
+    "description": "Issues and PRs related to incorrect behaviour."
   },
   {
     "name": "build",
     "color": "eb6420",
-    "description": "PRs and issues related to build files or the CI."
+    "description": "Issues and PRs related to build files or the CI."
   },
   {
     "name": "ci",
     "color": "ffff00",
-    "description": "PRs and issues related to the tests with unstable failures on the CI."
+    "description": "Issues and PRs related to the tests with unstable failures on the CI."
   },
   {
     "name": "cli",
     "color": "bfd4f2",
-    "description": "PRs and issues related to the Node.js command line interface."
+    "description": "Issues and PRs related to command line interface."
   },
   {
     "name": "coverage",
@@ -92,7 +92,7 @@
   {
     "name": "feature-request",
     "color": "0d7bde",
-    "description": "Issues that request new features to be added to the Node.js core."
+    "description": "Issues that request new features."
   },
   {
     "name": "good first issue",
@@ -105,11 +105,6 @@
     "description": "Issues that need assistance from volunteers or PRs that need help to proceed."
   },
   {
-    "name": "in progress",
-    "color": "d93f0b",
-    "description": "Issues and PRs that are still in progress."
-  },
-  {
     "name": "install",
     "color": "eb6420",
     "description": "Issues and PRs related to the installers."
@@ -117,7 +112,7 @@
   {
     "name": "invalid",
     "color": "ededed",
-    "description": "PRs and issues that are invalid."
+    "description": "Issues and PRs that are invalid."
   },
   {
     "name": "investigating",
@@ -177,7 +172,7 @@
   {
     "name": "performance",
     "color": "5319e7",
-    "description": "Issues and PRs related to the performance of Node.js."
+    "description": "Issues and PRs related to the performance."
   },
   {
     "name": "question",
@@ -185,9 +180,9 @@
     "description": "Issues that look for answers."
   },
   {
-    "name": "refactor to ES6+",
+    "name": "refactoring",
     "color": "0e8a16",
-    "description": "Issues and PRs related to refactoring existing JavaScript code to ECMAScript 6 or later."
+    "description": "Issues and PRs related to refactoring existing code."
   },
   {
     "name": "regression",
@@ -212,12 +207,12 @@
   {
     "name": "review wanted",
     "color": "10efeb",
-    "description": "PRs that need reviews"
+    "description": "PRs that need reviews."
   },
   {
     "name": "revisit later",
     "color": "ff89ed",
-    "description": "Inactionable items that could be revisited later"
+    "description": "Inactionable items that could be revisited later."
   },
   {
     "name": "security",
@@ -297,7 +292,7 @@
   {
     "name": "work in progress",
     "color": "ffff00",
-    "description": "Issues and PRs that are still a work in progress."
+    "description": "Issues and PRs that are still in progress."
   },
   {
     "name": "wrong repo",
