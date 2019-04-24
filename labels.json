@@ -90,6 +90,11 @@
     "description": "Issues that need assistance from volunteers or PRs that need help to proceed."
   },
   {
+    "name": "in progress",
+    "color": "d93f0b",
+    "description": "Issues and PRs that are still in progress."
+  },
+  {
     "name": "invalid",
     "color": "ededed",
     "description": "Issues and PRs that are invalid."
@@ -233,11 +238,6 @@
     "name": "wontfix",
     "color": "ededed",
     "description": "Issues that will not be fixed, e.g. due to backwards compatibility concerns."
-  },
-  {
-    "name": "work in progress",
-    "color": "ffff00",
-    "description": "Issues and PRs that are still in progress."
   },
   {
     "name": "wrong repo",
