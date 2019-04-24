@@ -75,16 +75,6 @@
     "description": "Issues and PRs that are duplicates of other issues or PRs."
   },
   {
-    "name": "experimental",
-    "color": "c5def5",
-    "description": "Issues and PRs related to experimental features."
-  },
-  {
-    "name": "fast-track",
-    "color": "a989e5",
-    "description": "PRs that do not need to wait for 48 hours to land."
-  },
-  {
     "name": "feature-request",
     "color": "0d7bde",
     "description": "Issues that request new features."
