@@ -32,12 +32,12 @@
   {
     "name": "build",
     "color": "eb6420",
-    "description": "Issues and PRs related to build files or the CI."
+    "description": "Issues and PRs related to build files."
   },
   {
     "name": "ci",
     "color": "ffff00",
-    "description": "Issues and PRs related to the tests with unstable failures on the CI."
+    "description": "Issues and PRs related to the CI."
   },
   {
     "name": "cli",
@@ -65,11 +65,6 @@
     "description": "Issues that are meant for discussion."
   },
   {
-    "name": "dist",
-    "color": "d4c5f9",
-    "description": "Issues and PRs related to dist folder."
-  },
-  {
     "name": "doc",
     "color": "006b75",
     "description": "Issues and PRs related to the documentations."
@@ -77,12 +72,12 @@
   {
     "name": "duplicate",
     "color": "ededed",
-    "description": "Issues or PRs that are duplicates of other issues or PRs."
+    "description": "Issues and PRs that are duplicates of other issues or PRs."
   },
   {
     "name": "experimental",
     "color": "c5def5",
-    "description": "Issues or PRs related to experimental features."
+    "description": "Issues and PRs related to experimental features."
   },
   {
     "name": "fast-track",
@@ -105,11 +100,6 @@
     "description": "Issues that need assistance from volunteers or PRs that need help to proceed."
   },
   {
-    "name": "install",
-    "color": "eb6420",
-    "description": "Issues and PRs related to the installers."
-  },
-  {
     "name": "invalid",
     "color": "ededed",
     "description": "Issues and PRs that are invalid."
@@ -130,19 +120,9 @@
     "description": "PRs that were landed."
   },
   {
-    "name": "lib",
-    "color": "fad8c7",
-    "description": "Issues and PRs related to general changes in the lib directory."
-  },
-  {
     "name": "lint",
     "color": "0e8a16",
     "description": "Issues and PRs related to linter."
-  },
-  {
-    "name": "lts",
-    "color": "c7def8",
-    "description": "Issues and PRs related to Long Term Support."
   },
   {
     "name": "macos",
@@ -153,16 +133,6 @@
     "name": "meta",
     "color": "b60205",
     "description": ""
-  },
-  {
-    "name": "misspell",
-    "color": "fbca04",
-    "description": ""
-  },
-  {
-    "name": "npm",
-    "color": "fad8c7",
-    "description": "Issues and PRs related to the npm client dependency or the npm registry."
   },
   {
     "name": "optimization",
@@ -233,16 +203,6 @@
     "name": "semver-patch",
     "color": "f4f3c0",
     "description": "PRs that contain new features and should be released in the next minor version."
-  },
-  {
-    "name": "server",
-    "color": "e99695",
-    "description": "Issues and PRs related to server."
-  },
-  {
-    "name": "src",
-    "color": "5319e7",
-    "description": "Issues and PRs related to general changes in the src directory."
   },
   {
     "name": "stalled",
