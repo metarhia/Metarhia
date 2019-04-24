@@ -135,11 +135,6 @@
     "description": ""
   },
   {
-    "name": "optimization",
-    "color": "008800",
-    "description": "Issues and PRs related to performance optimization."
-  },
-  {
     "name": "performance",
     "color": "5319e7",
     "description": "Issues and PRs related to the performance."
