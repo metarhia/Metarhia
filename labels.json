@@ -75,7 +75,7 @@
     "description": "Issues and PRs that are duplicates of other issues or PRs."
   },
   {
-    "name": "feature-request",
+    "name": "feature request",
     "color": "0d7bde",
     "description": "Issues that request new features."
   },
@@ -212,22 +212,22 @@
   {
     "name": "triage-high",
     "color": "000000",
-    "description": ""
+    "description": "Issues and PRs that have high priority."
   },
   {
     "name": "triage-low",
     "color": "000000",
-    "description": ""
+    "description": "Issues and PRs that have low priority."
   },
   {
     "name": "triage-normal",
     "color": "000000",
-    "description": ""
+    "description": "Issues and PRs that have normal priority."
   },
   {
     "name": "triage-paused",
     "color": "000000",
-    "description": ""
+    "description": "Issues and PRs that were paused."
   },
   {
     "name": "windows",
