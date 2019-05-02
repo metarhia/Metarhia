@@ -127,7 +127,7 @@
   {
     "name": "meta",
     "color": "b60205",
-    "description": ""
+    "description": "Issues or PRs related to the general management of the project."
   },
   {
     "name": "performance",
