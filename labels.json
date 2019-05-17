@@ -92,7 +92,7 @@
   {
     "name": "in progress",
     "color": "d93f0b",
-    "description": "Issues and PRs that are still in progress."
+    "description": "Issues and PRs that are in progress."
   },
   {
     "name": "invalid",
