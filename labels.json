@@ -70,6 +70,11 @@
     "description": "Issues and PRs that are duplicates of other issues or PRs."
   },
   {
+    "name": "enhancement",
+    "color": "00eeee",
+    "description": "Issues and PRs that add new features."
+  },
+  {
     "name": "feature request",
     "color": "0d7bde",
     "description": "Issues that request new features."
@@ -187,7 +192,7 @@
   {
     "name": "semver-patch",
     "color": "f0ffcf",
-    "description": "PRs that contain new features and should be released in the next minor version."
+    "description": "PRs that contain bug fixes and should be released in the next patch version."
   },
   {
     "name": "stalled",
