@@ -10,11 +10,6 @@
     "description": "Issues and PRs related to backporting features and bug fixes to previous versions."
   },
   {
-    "name": "benchmark",
-    "color": "009800",
-    "description": "Issues and PRs related to the benchmark subsystem."
-  },
-  {
     "name": "blocked",
     "color": "b60205",
     "description": "PRs that are blocked by other issues/PRs."
@@ -26,7 +21,7 @@
   },
   {
     "name": "bug",
-    "color": "fc2929",
+    "color": "ff0000",
     "description": "Issues and PRs related to incorrect behaviour."
   },
   {
@@ -36,7 +31,7 @@
   },
   {
     "name": "ci",
-    "color": "ffff00",
+    "color": "f3efae",
     "description": "Issues and PRs related to the CI."
   },
   {
@@ -46,8 +41,8 @@
   },
   {
     "name": "coverage",
-    "color": "76e85a",
-    "description": "Issues and PRs related to native coverage support."
+    "color": "009900",
+    "description": "Issues and PRs related to code coverage."
   },
   {
     "name": "deprecations",
@@ -71,7 +66,7 @@
   },
   {
     "name": "duplicate",
-    "color": "ededed",
+    "color": "ddeede",
     "description": "Issues and PRs that are duplicates of other issues or PRs."
   },
   {
@@ -86,7 +81,7 @@
   },
   {
     "name": "help wanted",
-    "color": "159818",
+    "color": "066e70",
     "description": "Issues that need assistance from volunteers or PRs that need help to proceed."
   },
   {
@@ -121,17 +116,17 @@
   },
   {
     "name": "macos",
-    "color": "9944dd",
+    "color": "efefef",
     "description": "Issues and PRs related to the macOS platform."
   },
   {
     "name": "meta",
-    "color": "b60205",
+    "color": "ffffff",
     "description": "Issues or PRs related to the general management of the project."
   },
   {
     "name": "performance",
-    "color": "5319e7",
+    "color": "70d34c",
     "description": "Issues and PRs related to the performance."
   },
   {
@@ -141,7 +136,7 @@
   },
   {
     "name": "refactoring",
-    "color": "0e8a16",
+    "color": "12999e",
     "description": "Issues and PRs related to refactoring existing code."
   },
   {
@@ -151,7 +146,7 @@
   },
   {
     "name": "release",
-    "color": "006b75",
+    "color": "f0ffd0",
     "description": "Issues and PRs related to releases of new versions."
   },
   {
@@ -161,7 +156,7 @@
   },
   {
     "name": "research",
-    "color": "0052cc",
+    "color": "0000ff",
     "description": "Issues and PRs related to research."
   },
   {
@@ -176,22 +171,22 @@
   },
   {
     "name": "security",
-    "color": "bb3344",
+    "color": "ff2222",
     "description": "Issues and PRs related to security."
   },
   {
     "name": "semver-major",
-    "color": "fbca04",
+    "color": "fff0c0",
     "description": "PRs that contain breaking changes and should be released in the next major version."
   },
   {
     "name": "semver-minor",
-    "color": "fef2c0",
+    "color": "f8f8c8",
     "description": "PRs that contain new features and should be released in the next minor version."
   },
   {
     "name": "semver-patch",
-    "color": "f4f3c0",
+    "color": "f0ffcf",
     "description": "PRs that contain new features and should be released in the next minor version."
   },
   {
@@ -201,47 +196,37 @@
   },
   {
     "name": "test",
-    "color": "990099",
+    "color": "11ee11",
     "description": "Issues and PRs related to the tests."
   },
   {
-    "name": "tools",
-    "color": "fe8a16",
-    "description": "Issues and PRs related to tools for developement."
-  },
-  {
     "name": "triage-high",
-    "color": "000000",
+    "color": "000033",
     "description": "Issues and PRs that have high priority."
   },
   {
     "name": "triage-low",
-    "color": "000000",
+    "color": "003300",
     "description": "Issues and PRs that have low priority."
   },
   {
     "name": "triage-normal",
-    "color": "000000",
+    "color": "330000",
     "description": "Issues and PRs that have normal priority."
   },
   {
     "name": "triage-paused",
-    "color": "000000",
+    "color": "333333",
     "description": "Issues and PRs that were paused."
   },
   {
     "name": "windows",
-    "color": "9944dd",
+    "color": "0078d7",
     "description": "Issues and PRs related to the Windows platform."
   },
   {
     "name": "wontfix",
     "color": "ededed",
     "description": "Issues that will not be fixed, e.g. due to backwards compatibility concerns."
-  },
-  {
-    "name": "wrong repo",
-    "color": "6a4636",
-    "description": "Issues that should be opened in another repository."
   }
 ]
