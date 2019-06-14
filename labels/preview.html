@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .label {
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 2;
+        font-family: sans-serif;
+        padding: 0 8px;
+        display: inline-block;
+        margin: 8px 8px;
+      }
+
+      .desc {
+        padding: 8px 16px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const labels = [{"name":"abandoned","color":"000000","description":"When there is no eventual need."},{"name":"backport","color":"4213c4","description":"Issues and PRs related to backporting features and bug fixes to previous versions."},{"name":"blocked","color":"b60205","description":"PRs that are blocked by other issues/PRs."},{"name":"browser","color":"f9d0c4","description":"Issues and PRs related to browser."},{"name":"bug","color":"ff0000","description":"Issues and PRs related to incorrect behaviour."},{"name":"build","color":"eb6420","description":"Issues and PRs related to build files."},{"name":"ci","color":"f3efae","description":"Issues and PRs related to the CI."},{"name":"cli","color":"bfd4f2","description":"Issues and PRs related to command line interface."},{"name":"coverage","color":"009900","description":"Issues and PRs related to code coverage."},{"name":"deprecations","color":"ea8a8d","description":"Issues and PRs related to deprecations."},{"name":"deps","color":"1da6db","description":"Issues and PRs related to dependencies."},{"name":"discussion","color":"9fefc7","description":"Issues that are meant for discussion."},{"name":"doc","color":"006b75","description":"Issues and PRs related to the documentations."},{"name":"duplicate","color":"ddeede","description":"Issues and PRs that are duplicates of other issues or PRs."},{"name":"enhancement","color":"00eeee","description":"Issues and PRs that add new features."},{"name":"feature request","color":"0d7bde","description":"Issues that request new features."},{"name":"good first issue","color":"7057ff","description":"Issues that are suitable for first-time contributors."},{"name":"help wanted","color":"066e70","description":"Issues that need assistance from volunteers or PRs that need help to proceed."},{"name":"in progress","color":"d93f0b","description":"Issues and PRs that are in progress."},{"name":"invalid","color":"ededed","description":"Issues and PRs that are invalid."},{"name":"investigating","color":"e407f4","description":"Issues and PRs that are not confirmed."},{"name":"known limitation","color":"ff8080","description":"Issues that are identified as known limitations."},{"name":"landed","color":"6f42c1","description":"PRs that were landed."},{"name":"lint","color":"0e8a16","description":"Issues and PRs related to linter."},{"name":"macos","color":"efefef","description":"Issues and PRs related to the macOS platform."},{"name":"meta","color":"ffffff","description":"Issues or PRs related to the general management of the project."},{"name":"performance","color":"70d34c","description":"Issues and PRs related to the performance."},{"name":"question","color":"cc317c","description":"Issues that look for answers."},{"name":"refactoring","color":"12999e","description":"Issues and PRs related to refactoring existing code."},{"name":"regression","color":"b60205","description":"Issues related to regressions."},{"name":"release","color":"f0ffd0","description":"Issues and PRs related to releases of new versions."},{"name":"repro-exists","color":"e11d21","description":"Issues with reproductions."},{"name":"research","color":"0000ff","description":"Issues and PRs related to research."},{"name":"review wanted","color":"10efeb","description":"PRs that need reviews."},{"name":"revisit later","color":"ff89ed","description":"Inactionable items that could be revisited later."},{"name":"security","color":"ff2222","description":"Issues and PRs related to security."},{"name":"semver-major","color":"fff0c0","description":"PRs that contain breaking changes and should be released in the next major version."},{"name":"semver-minor","color":"f8f8c8","description":"PRs that contain new features and should be released in the next minor version."},{"name":"semver-patch","color":"f0ffcf","description":"PRs that contain bug fixes and should be released in the next patch version."},{"name":"stalled","color":"d4c5f9","description":"Issues and PRs that are stalled."},{"name":"test","color":"11ee11","description":"Issues and PRs related to the tests."},{"name":"triage-high","color":"000033","description":"Issues and PRs that have high priority."},{"name":"triage-low","color":"003300","description":"Issues and PRs that have low priority."},{"name":"triage-normal","color":"330000","description":"Issues and PRs that have normal priority."},{"name":"triage-paused","color":"333333","description":"Issues and PRs that were paused."},{"name":"windows","color":"0078d7","description":"Issues and PRs related to the Windows platform."},{"name":"wontfix","color":"ededed","description":"Issues that will not be fixed, e.g. due to backwards compatibility concerns."}];
+
+      function calculateColor(bgColor) {
+        const R = parseInt(bgColor.slice(0, 2), 16),
+          G = parseInt(bgColor.slice(2, 4), 16),
+          B = parseInt(bgColor.slice(4, 6), 16);
+
+        const C = [R / 255, G / 255, B / 255];
+
+        for (var i = 0; i < C.length; ++i) {
+          if (C[i] <= 0.03928) {
+            C[i] = C[i] / 12.92;
+          } else {
+            C[i] = Math.pow((C[i] + 0.055) / 1.055, 2.4);
+          }
+        }
+
+        const L = 0.2126 * C[0] + 0.7152 * C[1] + 0.0722 * C[2];
+
+        if (L > 0.179) {
+          return 'black';
+        } else {
+          return 'white';
+        }
+      }
+
+      const table = document.body.appendChild(document.createElement('table'));
+
+      for (const label of labels) {
+        const tableRow = table.appendChild(document.createElement('tr'));
+        const cells = [
+          document.createElement('td'),
+          document.createElement('td'),
+        ];
+        tableRow.append(...cells);
+
+        const labelDiv = document.createElement('div');
+        labelDiv.setAttribute('class', 'label');
+        const { bgColor, color } = {
+          bgColor: label.color,
+          color: calculateColor(label.color),
+        };
+        labelDiv.setAttribute(
+          'style',
+          `background-color: #${bgColor}; color: ${color}`,
+        );
+        labelDiv.innerText = label.name;
+        cells[0].appendChild(labelDiv);
+
+        const descDiv = document.createElement('div');
+        descDiv.setAttribute('class', 'desc');
+        descDiv.innerText = label.description;
+        cells[1].appendChild(descDiv);
+      }
+    </script>
+  </body>
+</html>
