@@ -9,7 +9,7 @@
 | [`metarhia/eslint-config-metarhia`][]      | [`eslint-config-metarhia`][]      | [belochub][]     |
 | [`metarhia/eslint-plugin-impress`][]       | [`eslint-plugin-impress`][]       | [belochub][]     |
 | [`metarhia/filestorage`][]                 | [`@metarhia/filestorage`][]       | [lundibundi][]   |
-| [`metarhia/globalstorage`][]               | [`globalstorage`][]               | [belochub][]     |
+| [`metarhia/globalstorage`][]               | [`globalstorage`][]               | [tshemsedinov][] |
 | [`metarhia/impress`][]                     | [`impress`][]                     | [tshemsedinov][] |
 | [`metarhia/impress-cli`][]                 | [`impress-cli`][]                 | [belochub][]     |
 | [`metarhia/jstp`][]                        | [`@metarhia/jstp`][]              | [belochub][]     |
@@ -17,7 +17,7 @@
 | [`metarhia/metacom`][]                     | [`metacom`][]                     | [tshemsedinov][] |
 | [`metarhia/metadoc`][]                     | [`@metarhia/doc`][]               | [lundibundi][]   |
 | [`metarhia/metalog`][]                     | [`metalog`][]                     | [nechaido][]     |
-| [`metarhia/metaschema`][]                  | [`metaschema`][]                  | [nechaido][]     |
+| [`metarhia/metaschema`][]                  | [`metaschema`][]                  | [tshemsedinov][] |
 | [`metarhia/metastreams`][]                 | [`metastreams`][]                 | [lundibundi][]   |
 | [`metarhia/metasync`][]                    | [`metasync`][]                    | [nechaido][]     |
 | [`metarhia/metatests`][]                   | [`metatests`][]                   | [lundibundi][]   |
