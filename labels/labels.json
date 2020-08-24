@@ -43,8 +43,8 @@
     "color": "ffae00"
   },
   {
-    "name": "deps",
-    "color": "1da6db"
+    "name": "dependencies",
+    "color": "0366d6"
   },
   {
     "name": "discussion",
