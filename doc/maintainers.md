@@ -27,6 +27,7 @@
 | [`metarhia/sql`][]                         | [`@metarhia/sql`][]               | [lundibundi][]   |
 | [`metarhia/tickplate`][]                   | [`tickplate`][]                   | [tshemsedinov][] |
 | [`metarhia/tools`][]                       | [`@metarhia/tools`][]             | [belochub][]     |
+| [`metarhia/config`][]                      | [`@metarhia/config`][]            | [tshemsedinov][]     |
 
 [`metarhia/metarhia`]: https://github.com/metarhia/Metarhia
 [`metarhia/common`]: https://github.com/metarhia/common
@@ -53,6 +54,7 @@
 [`metarhia/sql`]: https://github.com/metarhia/sql
 [`metarhia/tickplate`]: https://github.com/metarhia/tickplate
 [`metarhia/tools`]: https://github.com/metarhia/tools
+[`metarhia/config`]: https://github.com/metarhia/config
 [//]: # 'links to npm packages:'
 [`metarhia`]: https://npmjs.com/metarhia
 [`@metarhia/common`]: https://npmjs.com/@metarhia/common
@@ -79,6 +81,7 @@
 [`@metarhia/sql`]: https://npmjs.com/@metarhia/sql
 [`tickplate`]: https://npmjs.com/tickplate
 [`@metarhia/tools`]: https://www.npmjs.com/@metarhia/tools
+[`@metarhia/config`]: https://www.npmjs.com/@metarhia/config
 [//]: # "links to maintainers' GitHub profiles:"
 [belochub]: https://github.com/belochub
 [lundibundi]: https://github.com/lundibundi
