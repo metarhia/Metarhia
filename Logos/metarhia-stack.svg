@@ -1,0 +1,14 @@
+<svg version="1.1" viewBox="0.0 0.0 745.7664041994751 720.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<clipPath id="p.0"><path d="m0 0l745.7664 0l0 720.0l-745.7664 0l0 -720.0z" clip-rule="nonzero"/></clipPath>
+<g clip-path="url(#p.0)">
+<path fill="#7db500" d="M 100,188 L 367,18 L 167,244 Z" fill-rule="evenodd"/>
+<path fill="#8ecc00" d="M 167,244 L 527,243 L 367,18 Z" fill-rule="evenodd"/>
+<path fill="#7db500" d="M 367,18 L 527,243 L 664,186 Z" fill-rule="evenodd"/>
+<path fill="#699900" d="M 100,188 L 167,244 L 85,514 Z" fill-rule="evenodd"/>
+<path fill="#5d8500" d="M 167,244 L 350,544 L 85,514 Z" fill-rule="evenodd"/>
+<path fill="#699900" d="M 664,186 L 527,243 L 650,511 Z" fill-rule="evenodd"/>
+<path fill="#5d8500" d="M 527,243 L 650,511 L 350,544 Z" fill-rule="evenodd"/>
+<path fill="#699900" d="M 167,244 L 527,243 L 350,544 Z" fill-rule="evenodd"/>
+<path fill="#507300" d="M 85,514 L 350,544 L 381,694 Z" fill-rule="evenodd"/>
+<path fill="#425e00" d="M 350,544 L 381,694 L 650,511 Z" fill-rule="evenodd"/>
+</g></svg>
