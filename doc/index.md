@@ -1,0 +1,21 @@
+# Metarhia common abstractions
+
+- Metaschema
+- Schema
+- Model
+- Type
+- Application
+- Cache
+- Planner
+- Procedure
+- Scheduler
+- Server
+- Channel
+- Metacom
+- MetaScript
+- Database
+- Query
+- Config
+- Logger
+- Sheet
+- DirectoryWatcher
