@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+'use strict';
 
 const labels = require('./labels.json');
 const fs = require('fs');
