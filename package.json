@@ -1,13 +1,13 @@
 {
   "name": "metarhia",
-  "version": "0.0.1",
+  "version": "3.0.0",
   "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
-  "description": "Metarhia",
+  "description": "Enterprise technology stack for Node.js",
   "license": "MIT",
   "keywords": [
     "metarhia",
     "cloud",
-    "jstp",
+    "metacom",
     "impress",
     "console",
     "globalstorage"
@@ -21,15 +21,30 @@
     "email": "timur.shemsedinov@gmail.com"
   },
   "main": "./metarhia.js",
+  "homepage": "https://metarhia.com",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/tshemsedinov"
+  },
   "scripts": {
-    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\""
+    "test": "npm run lint && npm run types && metatests test/",
+    "types": "tsc -p types/tsconfig.json",
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\""
   },
   "dependencies": {},
   "engines": {
-    "node": ">=0.4.0"
+    "node": "14 || 16 || 18 || 19"
   },
   "readmeFilename": "README.md",
   "devDependencies": {
-    "prettier": "1.16.x"
+    "@types/node": "^18.7.8",
+    "eslint": "^8.22.0",
+    "eslint-config-metarhia": "^8.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
   }
 }
