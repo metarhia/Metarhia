@@ -1,6 +1,4 @@
 'use strict';
 
-var metarhia = {};
+const metarhia = {};
 module.exports = metarhia;
-
-// place code here

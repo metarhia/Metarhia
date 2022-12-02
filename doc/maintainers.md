@@ -27,7 +27,7 @@
 | [`metarhia/sql`][]                         | [`@metarhia/sql`][]               | [lundibundi][]   |
 | [`metarhia/tickplate`][]                   | [`tickplate`][]                   | [tshemsedinov][] |
 | [`metarhia/tools`][]                       | [`@metarhia/tools`][]             | [belochub][]     |
-| [`metarhia/config`][]                      | [`@metarhia/config`][]            | [tshemsedinov][]     |
+| [`metarhia/config`][]                      | [`@metarhia/config`][]            | [tshemsedinov][] |
 
 [`metarhia/metarhia`]: https://github.com/metarhia/Metarhia
 [`metarhia/common`]: https://github.com/metarhia/common
