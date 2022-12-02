@@ -28,7 +28,7 @@
   },
   "scripts": {
     "test": "npm run lint && npm run types && metatests test/",
-    "types": "tsc -p types/tsconfig.json",
+    "types": "tsc",
     "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\"",
     "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\""
   },
@@ -45,6 +45,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "metatests": "^0.8.2"
   }
 }
