@@ -10,6 +10,7 @@
     <path fill="#808080" d="M 527,243 L 650,511 L 350,544 Z" fill-rule="evenodd"/>
     <path fill="#A9A9A9" d="M 167,244 L 527,243 L 350,544 Z" fill-rule="evenodd"/>
     <path fill="#696969" d="M 85,514 L 350,544 L 381,694 Z" fill-rule="evenodd"/>
-    <path fill="#555555" d="M 350,544 L 381,694 L 650,511 Z" fill-rule="evenodd"/>
+    <path fill="#555555" d="M 527,243 L 650,511 L 350,544 Z" fill-rule="evenodd"/>
+    <path fill="#333333" d="M 350,544 L 381,694 L 650,511 Z" fill-rule="evenodd"/>
   </g>
 </svg>
